@@ -1,0 +1,21 @@
+{
+  "name": "api-rest-con-node.js-y-mongodb",
+  "version": "1.0.0",
+  "description": "muestra de API REST con MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "FrankDev",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-method-override": "^0.0.3",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2",
+    "serve-favicon": "^2.5.0"
+  }
+}
