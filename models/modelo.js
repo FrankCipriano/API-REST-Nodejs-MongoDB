@@ -16,6 +16,6 @@ const mongoose=require(`mongoose`),
 
 mongoose.connect(`mongodb://${db_options.host}/${db_options.database}`)
 //-CONEXION ATLAS
-//mongoose.connect(`mongodb+srv://FrankCipriano:Swordfish19.@frankdev.5jihp.mongodb.net/Movies?retryWrites=true&w=majority`)
+//mongoose.connect(`mongodb+srv://FrankCipriano:<Password>@frankdev.5jihp.mongodb.net/Movies?retryWrites=true&w=majority`)
 
 module.exports=MovieModel
